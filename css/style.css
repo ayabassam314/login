@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background: url('../img/photo-1257860.jpeg');
+    background-size: cover;
+}
+form{
+    width: 300px;
+    height: 430px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    transform: translate(-50%,-50%);
+}
+.tittle{
+    margin-top: 50px; 
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.user, .password{
+    width: 240px;
+    height: 30px;
+    padding: 5px;
+    color: #fff;
+    position: absolute;
+    outline: none;
+    background: none;
+     border: none; 
+    border-bottom: 2px solid blue;
+}
+.user{
+    top: 130px;
+    left: 40px;
+}
+.password{
+    top: 200px;
+    left: 40px;
+}
+.but{
+     width: 100px; 
+    height: 50px;
+    color: #fff;
+    background: blue;
+    position: absolute;
+     top: 300px;  
+    left: 100px;
+    border-radius: 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.but:hover{
+    cursor: pointer;
+    background-color: #6b87b1;
+    color: #000;
+    border: crimson;
+    
+}
+.paregraph{
+    position: absolute;
+    color: #fff;
+    top: 370px;
+    left: 20px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+.paregraph:hover{
+    color: rgb(95, 160, 180);
+}
